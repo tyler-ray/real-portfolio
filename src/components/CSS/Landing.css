@@ -1,0 +1,20 @@
+.Landing{
+    height:calc(100vh - 5rem);
+    text-align: center;
+    /* color:white; */
+}
+#name{
+    font-size: 400%;
+}
+
+.headshot{
+    margin:4rem;
+    margin-bottom:2rem;
+    height: 50%;
+}
+.sub-wrapper{
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 20%;
+    letter-spacing: .1rem;
+}
