@@ -11,7 +11,7 @@ import Landing from './components/Landing'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import TopNav from './components/TopNav'
-
+import logo from'./logo.svg'
 const dark = '#1A252F'
 const green = '#18BC9C'
 const light = '#2C3E50'
@@ -47,6 +47,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      {/* <img src={logo} alt=""/> */}
         <Light>
           <TopNav />
         </Light>
