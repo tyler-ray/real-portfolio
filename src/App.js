@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import './components/CSS/reset.css'
 import './components/CSS/TopNav.css'
+import './components/CSS/Landing.css'
 import styled from 'styled-components'
 import About from './components/About'
 import Contact from './components/Contact'
 import Landing from './components/Landing'
-import Links from './components/Links'
+// import Links from './components/Links'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import TopNav from './components/TopNav'
@@ -30,14 +31,14 @@ const Light = styled.div`
 const Green = styled.div`
   background-color:${green};
   width:100%;
+  color:white;
   font-family:'Oswald';
-  color:${dark};
 `
 const Dark = styled.div`
   background-color:${dark};
   width:100%;
   font-family:'Oswald';
-  color:white;
+  color:'#FFFFFF';
   height:50px;
 `
 
@@ -51,7 +52,7 @@ class App extends Component {
         </Light>
         <Green>
           <Landing />
-          <Links />
+          {/* <Links /> */}
         </Green>
         <White>
           <Skills />
