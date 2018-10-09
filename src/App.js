@@ -3,15 +3,18 @@ import './App.css';
 import './components/CSS/reset.css'
 import './components/CSS/TopNav.css'
 import './components/CSS/Landing.css'
+import './components/CSS/Skills.css'
+import './components/CSS/Portfolio.css'
+import './components/CSS/Contact.css'
+
 import styled from 'styled-components'
-import About from './components/About'
+// import About from './components/About'
 import Contact from './components/Contact'
 import Landing from './components/Landing'
-// import Links from './components/Links'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import TopNav from './components/TopNav'
-import logo from'./logo.svg'
+
 const dark = '#1A252F'
 const green = '#18BC9C'
 const light = '#2C3E50'
@@ -47,26 +50,30 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      {/* <img src={logo} alt=""/> */}
         <Light>
           <TopNav />
         </Light>
+
         <Green>
           <Landing />
-          {/* <Links /> */}
         </Green>
+
         <White>
           <Skills />
         </White>
+
         <Green>
           <Portfolio />
         </Green>
-        <White>
+
+        {/* <White>
           <About />
-        </White>
+        </White> */}
+
         <Light>
           <Contact />
         </Light>
+        
         <Dark/>
 
 
